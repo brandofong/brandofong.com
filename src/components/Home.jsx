@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full ">
+    <div name="home" className="h-screen w-full">
       <NavBar />
 
       <div className=" pt-12 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
@@ -16,7 +16,7 @@ const Home = () => {
           <img
             src={headshot}
             alt="headshot"
-            className="rounded-full mx-auto w-1/2 md:w-3/4 mt-20 mb-10 object-contain drop-shadow-2xl shadow-gray-700"
+            className="rounded-full mx-auto w-1/2 md:w-3/4 mt-20 mb-10 drop-shadow-2xl  shadow-gray-700 z-1"
           />
         </div>
         <div className="flex flex-col justify-center  font-Lato  ">
