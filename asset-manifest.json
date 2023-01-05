@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a8d2453.css",
-    "main.js": "/static/js/main.046e2b64.js",
+    "main.css": "/static/css/main.d00775d4.css",
+    "main.js": "/static/js/main.8c830eef.js",
+    "static/media/owl.jpg": "/static/media/owl.18eab1b947386108f904.jpg",
+    "static/media/butterfly.jpg": "/static/media/butterfly.72ed175e3aa482e1ecd7.jpg",
+    "static/media/sarrail.JPG": "/static/media/sarrail.fda81a8ae964846db366.JPG",
+    "static/media/younggoat.jpg": "/static/media/younggoat.a92ccffe388a31295bc9.jpg",
+    "static/media/redpanda.jpg": "/static/media/redpanda.3e640b5f507abcd3245e.jpg",
+    "static/media/Calgary.jpg": "/static/media/Calgary.075165b4c900863c744d.jpg",
+    "static/media/cirque.jpg": "/static/media/cirque.fd6dbe37778bf55e968e.jpg",
+    "static/media/tent.jpg": "/static/media/tent.ec6bdde8a21698b3e118.jpg",
     "static/media/barndo.jpg": "/static/media/barndo.dd3b54cbad24ef8e18ae.jpg",
     "static/media/resume.pdf": "/static/media/resume.9fcea78c7881eb6646d8.pdf",
     "index.html": "/index.html",
-    "main.3a8d2453.css.map": "/static/css/main.3a8d2453.css.map",
-    "main.046e2b64.js.map": "/static/js/main.046e2b64.js.map"
+    "main.d00775d4.css.map": "/static/css/main.d00775d4.css.map",
+    "main.8c830eef.js.map": "/static/js/main.8c830eef.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a8d2453.css",
-    "static/js/main.046e2b64.js"
+    "static/css/main.d00775d4.css",
+    "static/js/main.8c830eef.js"
   ]
 }
