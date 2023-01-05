@@ -1,15 +1,24 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import data from "../data";
+import { motion } from "framer-motion";
 
 const Photography = () => {
   return (
-    <div className=" h-screen font-Lato">
+    <div className="h-screen w-full ">
       <NavBar />
-      <div>
-        <h1 className="flex justify-center text-4xl pt-9">
-          A soon to be photography gallery of some of my favourite photos.
-        </h1>
-      </div>
+      <ul className="h-screen w-full grid grid-cols-3 gap-5 mx-6 py-6">
+        {data.Photo.map((data) => (
+          <motion.li
+            whileHover={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            key={data.order}
+            className="opacity-80"
+          >
+            <img src={data.imageURL} alt={data.alt} className=" object-cover" />
+          </motion.li>
+        ))}
+      </ul>
     </div>
   );
 };

@@ -8,15 +8,15 @@ import {
 } from "react-icons/ai";
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full">
+    <div name="home" className="h-screen w-full ">
       <NavBar />
 
-      <div className="max-w-screen-md  flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
+      <div className=" pt-12 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
         <div>
           <img
             src={headshot}
             alt="headshot"
-            className="rounded-full mx-auto  w-2/3 md:w-full pt-20 pb-8 "
+            className="rounded-full mx-auto w-1/2 md:w-3/4 mt-20 mb-10 object-contain drop-shadow-2xl shadow-gray-700"
           />
         </div>
         <div className="flex flex-col justify-center  font-Lato  ">
@@ -32,27 +32,27 @@ const Home = () => {
         </div>
 
         <div>
-          <div className=" flex justify-center md:justify-evenly  mt-10 mb-8 md:text-5xl gap-16 sm:text-4xl">
+          <div className=" flex justify-center md:justify-evenly mt-10 mb-8 gap-14 ">
             <a
-              className=" bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-2xl px-0.5 py-0.5  "
+              className=" bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-xl "
               href="https://github.com/brandofong"
               target="_blank"
             >
-              <AiOutlineGithub />
+              <AiOutlineGithub size={50} />
             </a>
             <a
-              className="bg-gradient-to-l from-purple-500 to-blue-500 text-white  rounded-xl my-0.5 "
+              className="bg-gradient-to-l from-purple-500 to-blue-500 text-white  rounded-xl"
               href="https://www.linkedin.com/in/brandofong/"
               target="_blank"
             >
-              <AiOutlineLinkedin />
+              <AiOutlineLinkedin size={50} />
             </a>
             <a
-              className="bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-2xl px-0.5 py-0.5 "
+              className="bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-xl "
               href="mailto:brandofong02@gmail.com"
               target="_blank"
             >
-              <AiOutlineMail className="px-1 py-0.5" />
+              <AiOutlineMail size={50} />
             </a>
           </div>
         </div>
