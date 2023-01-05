@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.690cd543.css",
-    "main.js": "/static/js/main.5afe8b4a.js",
+    "main.css": "/static/css/main.3a8d2453.css",
+    "main.js": "/static/js/main.046e2b64.js",
     "static/media/barndo.jpg": "/static/media/barndo.dd3b54cbad24ef8e18ae.jpg",
     "static/media/resume.pdf": "/static/media/resume.9fcea78c7881eb6646d8.pdf",
     "index.html": "/index.html",
-    "main.690cd543.css.map": "/static/css/main.690cd543.css.map",
-    "main.5afe8b4a.js.map": "/static/js/main.5afe8b4a.js.map"
+    "main.3a8d2453.css.map": "/static/css/main.3a8d2453.css.map",
+    "main.046e2b64.js.map": "/static/js/main.046e2b64.js.map"
   },
   "entrypoints": [
-    "static/css/main.690cd543.css",
-    "static/js/main.5afe8b4a.js"
+    "static/css/main.3a8d2453.css",
+    "static/js/main.046e2b64.js"
   ]
 }
