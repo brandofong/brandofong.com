@@ -6,7 +6,9 @@ const Experience = () => {
     <div className=" h-screen font-Lato">
       <NavBar />
       <div>
-        <h1 className="flex justify-center text-4xl pt-9">Coming soon...</h1>
+        <h1 className="md:text-3xl flex justify-center pt-8 font-Lato mx-auto  ">
+          Coming soon...
+        </h1>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const data = {
       alt: "butterfly",
       order: 1,
     },
-    { company: "Calgary", imageURL: Calgary, alt: "butterfly", order: 2 },
+    { company: "Calgary", imageURL: Calgary, alt: "calgary", order: 2 },
     { company: "Cirque", imageURL: cirque, alt: "cirque", order: 3 },
     { company: "Owl", imageURL: owl, alt: "owl", order: 4 },
     { company: "Redpanda", imageURL: redpanda, alt: "redpanda", order: 5 },
