@@ -11,7 +11,7 @@ const Home = () => {
     <div name="home" className="h-screen w-full">
       <NavBar />
 
-      <div className="max-w-screen-md mx-auto  flex flex-col items-center justify-center px-4 md:flex-col">
+      <div className="max-w-screen-md  flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
         <div>
           <img
             src={headshot}
@@ -32,9 +32,9 @@ const Home = () => {
         </div>
 
         <div>
-          <div className="flex justify-center md:justify-evenly  mt-10 mb-8 md:text-5xl gap-16 ">
+          <div className=" flex justify-center md:justify-evenly  mt-10 mb-8 md:text-5xl gap-16 sm:text-4xl">
             <a
-              className="bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-2xl px-0.5 py-0.5  "
+              className=" bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-2xl px-0.5 py-0.5  "
               href="https://github.com/brandofong"
               target="_blank"
             >
