@@ -45,8 +45,8 @@ const NavBar = () => {
           <motion.ul
             initial={{ y: "-100%" }}
             animate={{ y: 0 }}
-            exit={{ y: "100%" }}
-            transition={{ duration: 0.3 }}
+            exit={{ y: "-100%" }}
+            transition={{ duration: 0.4 }}
             className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-500 to-blue-500 text-white  z-10 "
           >
             {links.map((link) => (
