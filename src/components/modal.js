@@ -33,7 +33,7 @@ const Modal = ({ selectImg, setSelectImg }) => {
             <img
               src={selectImg.imageURL}
               alt={selectImg.alt}
-              className=" md:max-w-6xl max-w-[350px] opacity-60 blur-md"
+              className=" md:max-w-5xl max-w-[350px] opacity-60 blur-md"
             />
             <div className=" mb-2 ml-2 absolute bottom-0 left-0 font-Lato md:text-2xl text-sm text-white ">
               {selectImg.info}
@@ -43,7 +43,7 @@ const Modal = ({ selectImg, setSelectImg }) => {
           <img
             src={selectImg.imageURL}
             alt={selectImg.alt}
-            className="md:max-w-6xl max-w-[350px]"
+            className="md:max-w-5xl max-w-[350px]"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           />
