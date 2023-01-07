@@ -46,6 +46,7 @@ const Home = () => {
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
+                transition={{ duration: 0.3 }}
               >
                 <AiOutlineGithub size={50} />
               </motion.a>
@@ -55,6 +56,7 @@ const Home = () => {
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
+                transition={{ duration: 0.3 }}
               >
                 <AiOutlineLinkedin size={50} />
               </motion.a>
@@ -64,6 +66,7 @@ const Home = () => {
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
+                transition={{ duration: 0.3 }}
               >
                 <AiOutlineMail size={50} />
               </motion.a>

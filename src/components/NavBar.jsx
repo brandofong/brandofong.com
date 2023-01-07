@@ -40,7 +40,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-500 to-blue-500 text-white  z-10 ">
+        <ul className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-500 to-blue-500 text-white  z-10 ">
           {links.map((link) => (
             <li
               key={link.name}

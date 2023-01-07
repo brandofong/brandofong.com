@@ -16,11 +16,14 @@ const Photography = () => {
       <div className="h-screen w-full ">
         <NavBar />
 
-        <h1 className="md:text-3xl flex justify-center pt-8 font-Lato mx-auto ">
-          Looked better in person, but these will do...
+        <h1 className="md:text-3xl text-lg flex justify-center pt-8 pb-2 font-Lato mx-auto ">
+          Looked better in person, but these will do
         </h1>
+        <h2 className="text-center  text-sm md:text-[16px] flex justify-center font-Lato mx-auto text-gray-600 pb-2">
+          Some of my favourite shots that I've taken throughout the years...
+        </h2>
 
-        <ul className="h-screen w-full grid grid-cols-1 gap-5 mx-auto px-6 py-8 md:grid-cols-3">
+        <ul className="h-screen w-full grid grid-cols-1 gap-8 mx-auto pt-6 px-10 md:grid-cols-3">
           {data.Photo.map((data) => (
             <motion.li
               whileHover={{ opacity: 1 }}
@@ -32,7 +35,7 @@ const Photography = () => {
               <img
                 src={data.imageURL}
                 alt={data.alt}
-                className="h-auto w-auto object-fit-cover  drop-shadow-2xl"
+                className="h-auto w-auto object-fit-cover pb-3 drop-shadow-2xl"
               />
             </motion.li>
           ))}
