@@ -32,7 +32,7 @@ const Photography = () => {
               <img
                 src={data.imageURL}
                 alt={data.alt}
-                className="h-auto w-auto object-fit-cover  "
+                className="h-auto w-auto object-fit-cover  drop-shadow-2xl"
               />
             </motion.li>
           ))}
