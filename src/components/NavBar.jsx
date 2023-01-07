@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const links = [
@@ -38,25 +40,32 @@ const NavBar = () => {
       >
         {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
       </div>
-
-      {nav && (
-        <ul className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-500 to-blue-500 text-white  z-10 ">
-          {links.map((link) => (
-            <li
-              key={link.name}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
-            >
-              <Link
-                to={link.link}
-                target={link.target}
-                className="md:hover:text-primary ease-in duration-200"
+      <AnimatePresence>
+        {nav && (
+          <motion.ul
+            initial={{ y: "-100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "100%" }}
+            transition={{ duration: 0.3 }}
+            className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-500 to-blue-500 text-white  z-10 "
+          >
+            {links.map((link) => (
+              <li
+                key={link.name}
+                className="px-4 cursor-pointer capitalize py-6 text-4xl "
               >
-                {link.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+                <Link
+                  to={link.link}
+                  target={link.target}
+                  className="md:hover:text-primary ease-in duration-200"
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </motion.ul>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
