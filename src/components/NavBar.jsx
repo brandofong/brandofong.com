@@ -13,15 +13,15 @@ const NavBar = () => {
   ];
 
   return (
-    <div className=" drop-shadow-md font-Lato flex justify-between items-center w-full h-14 text-white px-5 bg-gradient-to-l from-purple-500 to-blue-500 relative z-1 ">
+    <div className="  shadow-md py-8  font-semibold font-Lato flex justify-between items-center w-full h-14 text-gray-800 px-5 border-b-2 border-b-blue-600 relative z-1 ">
       <div>
-        <h1 className="text-3xl  ml-2">Brandon.</h1>
+        <h1 className="text-3xl  ml-2 text-black">Brandon.</h1>
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex ">
         {links.map((link) => (
           <li
             key={link.name}
-            className="px-4 cursor-pointer font-medium text-white hover:scale-105 duration-200"
+            className="px-4 cursor-pointer  font-semibold  text-black hover:scale-105 duration-200"
           >
             <Link
               to={link.link}
@@ -47,7 +47,7 @@ const NavBar = () => {
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
             transition={{ duration: 0.4 }}
-            className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-500 to-blue-500 text-white  z-10 "
+            className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gray-50 text-black  z-10 "
           >
             {links.map((link) => (
               <li

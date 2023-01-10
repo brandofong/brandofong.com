@@ -15,15 +15,15 @@ const Home = () => {
       exit={{ y: 200, opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div name="home" className="h-screen w-full">
+      <div name="home" className="h-screen w-full ">
         <NavBar />
 
-        <div className=" mt-8 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
+        <div className="  mt-8 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
           <div>
             <img
               src={headshot}
               alt="headshot"
-              className="rounded-full mx-auto w-1/2 md:w-3/4 mt-20 mb-10 drop-shadow-2xl  shadow-gray-700 z-1"
+              className="rounded-full mx-auto w-1/2 md:w-3/4 mt-20 mb-10 drop-shadow-md shadow-gray-700 z-10 "
             />
           </div>
           <div className="flex flex-col justify-center  font-Lato  ">
@@ -41,7 +41,7 @@ const Home = () => {
           <div>
             <div className=" flex justify-center md:justify-evenly mt-10 mb-8 gap-14  ">
               <motion.a
-                className=" bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-xl "
+                className=" bg-blue-600 text-white rounded-xl "
                 href="https://github.com/brandofong"
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
@@ -51,7 +51,7 @@ const Home = () => {
                 <AiOutlineGithub size={50} />
               </motion.a>
               <motion.a
-                className="bg-gradient-to-l from-purple-500 to-blue-500 text-white  rounded-xl"
+                className="bg-blue-600 text-white  rounded-xl"
                 href="https://www.linkedin.com/in/brandofong/"
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
@@ -61,7 +61,7 @@ const Home = () => {
                 <AiOutlineLinkedin size={50} />
               </motion.a>
               <motion.a
-                className="bg-gradient-to-l from-purple-500 to-blue-500 text-white rounded-xl "
+                className="bg-blue-600 text-white rounded-xl "
                 href="mailto:brandofong02@gmail.com"
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
