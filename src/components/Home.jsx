@@ -18,7 +18,7 @@ const Home = () => {
       <div name="home" className="h-screen w-full">
         <NavBar />
 
-        <div className=" pt-12 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
+        <div className=" mt-8 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
           <div>
             <img
               src={headshot}

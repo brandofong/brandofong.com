@@ -13,7 +13,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="  font-Lato flex justify-between items-center w-full h-14 text-white px-5 bg-gradient-to-l from-purple-500 to-blue-500 relative z-1">
+    <div className=" drop-shadow-md font-Lato flex justify-between items-center w-full h-14 text-white px-5 bg-gradient-to-l from-purple-500 to-blue-500 relative z-1 ">
       <div>
         <h1 className="text-3xl  ml-2">Brandon.</h1>
       </div>
