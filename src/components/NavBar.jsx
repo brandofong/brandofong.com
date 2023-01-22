@@ -43,9 +43,9 @@ const NavBar = () => {
       <AnimatePresence>
         {nav && (
           <motion.ul
-            initial={{ y: "-100%" }}
-            animate={{ y: 0 }}
-            exit={{ y: "-100%" }}
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
             transition={{ duration: 0.4 }}
             className=" font-Lato flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gray-50 text-black  z-10 "
           >
