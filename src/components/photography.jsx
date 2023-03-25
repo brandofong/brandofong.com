@@ -16,7 +16,7 @@ const Photography = () => {
       <div className="h-screen w-full ">
         <NavBar />
 
-        <h1 className="md:text-3xl text-lg flex justify-center pt-8 pb-2 font-Lato mx-auto ">
+        <h1 className=" text-center  md:text-3xl text-lg flex justify-center pt-8 pb-2 font-Lato mx-auto ">
           Looked better in person, but these will do
         </h1>
         <h2 className="text-center  text-sm md:text-[16px] flex justify-center font-Lato mx-auto text-gray-600 pb-2">

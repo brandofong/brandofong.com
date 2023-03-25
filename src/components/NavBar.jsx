@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div className="  shadow-md py-8  font-semibold font-Lato flex justify-between items-center w-full h-14 text-gray-800 px-5 border-b-2 border-b-blue-600 relative z-1 ">
       <div>
-        <h1 className="text-3xl  ml-2 text-black">Brandon.</h1>
+        <h1 className="font-semibold text-2xl text-black">brando.</h1>
       </div>
       <ul className="hidden md:flex ">
         {links.map((link) => (
