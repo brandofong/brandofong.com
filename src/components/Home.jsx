@@ -31,10 +31,11 @@ const Home = () => {
               Hey 👋🏻! My name is Brandon Fong.
             </h1>
             <p className="text-center text-md text-gray-700  ">
-              I am a second-year Electrical Engineering student at the
-              University of Calgary. While not studying, you can find me doing
-              photography or building mechanical keyboards. I am always open to
-              meeting new people, so please feel free to connect with me!
+              I am a third-year Electrical Engineering student with a minor in
+              Computer Engineering at the University of Calgary. While not
+              studying, you can find me doing photography or building mechanical
+              keyboards. I am always open to meeting new people, so please feel
+              free to connect with me!
             </p>
           </div>
 

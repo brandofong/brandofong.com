@@ -3,6 +3,9 @@ import Calgary from "./assets/photos/Calgary.jpg";
 import cirque from "./assets/photos/cirque.jpg";
 import niagara from "./assets/photos/niagara.jpg";
 import redpanda from "./assets/photos/redpanda.jpg";
+import harbour from "./assets/photos/harbour.JPG";
+import peak from "./assets/photos/peak.JPG";
+import lion from "./assets/photos/lion.jpg";
 import sarrail from "./assets/photos/sarrail.JPG";
 import tent from "./assets/photos/tent.jpg";
 import younggoat from "./assets/photos/younggoat.jpg";
@@ -16,8 +19,6 @@ import neon from "./assets/photos/neon.jpg";
 import plain from "./assets/photos/plain.jpg";
 import pocaterra from "./assets/photos/pocaterra.jpg";
 import valencia from "./assets/photos/valencia.jpg";
-import { FaLockOpen } from "react-icons/fa";
-import { DeprecatedLayoutGroupContext } from "framer-motion";
 
 const data = {
   Photo: [
@@ -133,6 +134,27 @@ const data = {
       imageURL: moon,
       alt: "moon",
       order: 18,
+    },
+
+    {
+      info: "Victoria Peak, June 2023",
+      imageURL: peak,
+      alt: "peak",
+      order: 19,
+    },
+
+    {
+      info: "Victoria Harbour at Sunset, June 2023",
+      imageURL: harbour,
+      alt: "harbour",
+      order: 20,
+    },
+
+    {
+      info: "Lion's Rock Hike in Hong Kong, August 2023",
+      imageURL: lion,
+      alt: "lion",
+      order: 21,
     },
   ],
 };
