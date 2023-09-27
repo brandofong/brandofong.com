@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.45812000.css",
-    "main.js": "/static/js/main.9d2e2b2c.js",
+    "main.css": "/static/css/main.71cf57f0.css",
+    "main.js": "/static/js/main.9203e5f7.js",
     "static/media/plain.jpg": "/static/media/plain.336d3fc70566c8efbfb4.jpg",
     "static/media/butterfly.jpg": "/static/media/butterfly.72ed175e3aa482e1ecd7.jpg",
     "static/media/pocaterra.jpg": "/static/media/pocaterra.cd16e604754c123149f8.jpg",
@@ -15,8 +15,14 @@
     "static/media/niagara.jpg": "/static/media/niagara.fa5362a18069f01ce331.jpg",
     "static/media/Calgary.jpg": "/static/media/Calgary.075165b4c900863c744d.jpg",
     "static/media/cirque.jpg": "/static/media/cirque.fd6dbe37778bf55e968e.jpg",
+    "static/media/coldplay.JPG": "/static/media/coldplay.1f9edd2f32516ef7e142.JPG",
+    "static/media/vancouver.jpg": "/static/media/vancouver.e3ba0063d1f1216e1f3b.jpg",
+    "static/media/stanley.jpg": "/static/media/stanley.ed0df9745fe9d3223721.jpg",
     "static/media/peak.JPG": "/static/media/peak.3c1d74fbf4418c6f0bc6.JPG",
+    "static/media/market.JPG": "/static/media/market.53c52064d6e7375f0834.JPG",
     "static/media/aurora.jpg": "/static/media/aurora.f5b6bca64f788d89a659.jpg",
+    "static/media/kowloon.JPG": "/static/media/kowloon.e9f0b95b0c6bb466b2b0.JPG",
+    "static/media/candy.jpg": "/static/media/candy.c7ad7cd06b08765cf0bb.jpg",
     "static/media/tent.jpg": "/static/media/tent.ec6bdde8a21698b3e118.jpg",
     "static/media/barndo.jpg": "/static/media/barndo.27342de8647c83fa93e7.jpg",
     "static/media/resume.pdf": "/static/media/resume.3ea667349c076607dfe1.pdf",
@@ -26,11 +32,11 @@
     "static/media/neon.jpg": "/static/media/neon.37aaf853446ecd9bf240.jpg",
     "static/media/hk.jpg": "/static/media/hk.6e317ca7774831352323.jpg",
     "index.html": "/index.html",
-    "main.45812000.css.map": "/static/css/main.45812000.css.map",
-    "main.9d2e2b2c.js.map": "/static/js/main.9d2e2b2c.js.map"
+    "main.71cf57f0.css.map": "/static/css/main.71cf57f0.css.map",
+    "main.9203e5f7.js.map": "/static/js/main.9203e5f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.45812000.css",
-    "static/js/main.9d2e2b2c.js"
+    "static/css/main.71cf57f0.css",
+    "static/js/main.9203e5f7.js"
   ]
 }
