@@ -1,12 +1,9 @@
 import React from "react";
 import headshot from "../assets/barndo.jpg";
+
 import NavBar from "./NavBar";
 import { motion } from "framer-motion";
-import {
-  AiOutlineMail,
-  AiOutlineLinkedin,
-  AiOutlineGithub,
-} from "react-icons/ai";
+
 const Home = () => {
   return (
     <motion.div
@@ -18,7 +15,7 @@ const Home = () => {
       <div name="home" className="h-screen w-full ">
         <NavBar />
 
-        <div className="  mt-8 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
+        <div className="  mt-6 max-w-screen-md flex flex-col mx-auto items-center justify-center px-4 md:flex-col">
           <div>
             <img
               src={headshot}
@@ -28,50 +25,15 @@ const Home = () => {
           </div>
           <div className="flex flex-col justify-center  font-Lato  ">
             <h1 className="text-center text-2xl pb-3  ">
-              Hey 👋🏻! My name is Brandon Fong.
+              Hey 👋🏻! My name's Brandon.
             </h1>
             <p className="text-center text-md text-gray-700  ">
               I am a third-year Electrical Engineering student with a minor in
-              Computer Engineering at the University of Calgary. While not
-              studying, you can find me doing photography or building mechanical
-              keyboards. I am always open to meeting new people, so please feel
+              Computer Engineering at the University of Calgary. In my free
+              time, you can find me doing photography 📸 , or outside looking at
+              planes ✈️ . I am always open to meeting new people, so please feel
               free to connect with me!
             </p>
-          </div>
-
-          <div>
-            <div className=" flex justify-center md:justify-evenly mt-10 mb-8 gap-14  ">
-              <motion.a
-                className=" bg-blue-600 text-white rounded-xl "
-                href="https://github.com/brandofong"
-                target="_blank"
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 0.3 }}
-              >
-                <AiOutlineGithub size={50} />
-              </motion.a>
-              <motion.a
-                className="bg-blue-600 text-white  rounded-xl"
-                href="https://www.linkedin.com/in/brandofong/"
-                target="_blank"
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 0.3 }}
-              >
-                <AiOutlineLinkedin size={50} />
-              </motion.a>
-              <motion.a
-                className="bg-blue-600 text-white rounded-xl "
-                href="mailto:brandofong02@gmail.com"
-                target="_blank"
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 0.3 }}
-              >
-                <AiOutlineMail size={50} />
-              </motion.a>
-            </div>
           </div>
         </div>
       </div>

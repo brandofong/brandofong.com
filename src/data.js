@@ -19,6 +19,13 @@ import neon from "./assets/photos/neon.jpg";
 import plain from "./assets/photos/plain.jpg";
 import pocaterra from "./assets/photos/pocaterra.jpg";
 import valencia from "./assets/photos/valencia.jpg";
+import coldplay from "./assets/photos/coldplay.JPG";
+import kowloon from "./assets/photos/kowloon.JPG";
+import market from "./assets/photos/market.JPG";
+import stanley from "./assets/photos/stanley.jpg";
+import vancouver from "./assets/photos/vancouver.jpg";
+
+import candy from "./assets/photos/candy.jpg";
 
 const data = {
   Photo: [
@@ -155,6 +162,44 @@ const data = {
       imageURL: lion,
       alt: "lion",
       order: 21,
+    },
+
+    {
+      info: "Stanley from Twin Peaks, August 2023",
+      imageURL: stanley,
+      alt: "stanley",
+      order: 22,
+    },
+    {
+      info: "Cotton Candy Sky, May 2023",
+      imageURL: candy,
+      alt: "candysky",
+      order: 23,
+    },
+    {
+      info: "Somewhere by Kitsilano, September 2023",
+      imageURL: vancouver,
+      alt: "nightcalgary",
+      order: 24,
+    },
+
+    {
+      info: "Coldplay Concert at BC Place, September 2023",
+      imageURL: coldplay,
+      alt: "coldplay",
+      order: 25,
+    },
+    {
+      info: "Kowloon from the Sky, August 2023",
+      imageURL: kowloon,
+      alt: "kowloon",
+      order: 26,
+    },
+    {
+      info: "Richmond Night Market while Landing, August 2023",
+      imageURL: market,
+      alt: "market",
+      order: 27,
     },
   ],
 };

@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import {
+  AiOutlineMail,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +20,38 @@ const NavBar = () => {
   return (
     <div className="  shadow-md py-8  font-semibold font-Lato flex justify-between items-center w-full h-14 text-gray-800 px-5 border-b-2 border-b-blue-600 relative z-1 ">
       <div>
-        <h1 className="font-semibold text-2xl text-black">brando.</h1>
+        <div className=" flex justify-left md:justify-evenly mx-auto my-auto px-4 gap-6  ">
+          <motion.a
+            className="bg-white text-black  rounded-xl"
+            href="https://www.linkedin.com/in/brandofong/"
+            target="_blank"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
+            <AiOutlineLinkedin size={28} />
+          </motion.a>
+          <motion.a
+            className=" bg-white text-black rounded-xl "
+            href="https://github.com/brandofong"
+            target="_blank"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
+            <AiOutlineGithub size={28} />
+          </motion.a>
+          <motion.a
+            className="bg-white text-black rounded-xl "
+            href="mailto:brandofong02@gmail.com"
+            target="_blank"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
+            <AiOutlineMail size={28} />
+          </motion.a>
+        </div>
       </div>
       <ul className="hidden md:flex ">
         {links.map((link) => (

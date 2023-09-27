@@ -17,9 +17,9 @@ const Photography = () => {
         <NavBar />
 
         <h1 className=" text-center  md:text-3xl text-lg flex justify-center pt-8 pb-2 font-Lato mx-auto ">
-          Looked better in person, but these will do
+          Photos don't do these justice
         </h1>
-        <h2 className="text-center  text-sm md:text-[16px] flex justify-center font-Lato mx-auto text-gray-600 pb-2">
+        <h2 className="text-center mx-8 text-sm md:text-[16px] flex justify-center font-Lato text-gray-600 pb-2">
           Some of my favourite shots that I've taken throughout the years...
         </h2>
 
