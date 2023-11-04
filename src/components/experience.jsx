@@ -23,7 +23,7 @@ const Experience = () => {
     },
     {
       company: "Asia Infrastructure Solutions",
-      jobDescription: "Intern",
+      jobDescription: "Electrical Engineering Intern",
       length: "May 2023 - Aug. 2023",
       imageUrl: ais,
     },
@@ -58,7 +58,7 @@ const Experience = () => {
             {workExperiences.map((experience, index) => (
               <div
                 key={index}
-                className="flex items-end text-right justify-between w-3/4 my-8 md:w-full lg:w-full text-xs sm:text-sm md:text-md"
+                className="flex items-center text-right justify-between w-3/4 my-8 md:w-full lg:w-full text-xs sm:text-sm md:text-md"
               >
                 <motion.div
                   initial={{ x: -200, opacity: 0 }}
@@ -70,25 +70,16 @@ const Experience = () => {
                     <img
                       src={experience.imageUrl}
                       alt={experience.company}
-                      className="w-20 h-20 sm:w-32 sm:h-32 object-contain"
+                      className="w-20 h-20 lg:w-32 lg:h-32 object-contain"
                     />
                   </div>
                 </motion.div>
 
-                <motion.div
-                  initial={{ x: 200, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  exit={{ x: -200, opacity: 0 }}
-                  transition={{ duration: 1.5 }}
-                >
-                  <div className="sm:ml-4 w-full lg:pr-8 justify-between">
-                    <h2 className="text-lg font-bold sm:text-xl ">
-                      {experience.company}
-                    </h2>
-                    <p className="text-gray-800">{experience.jobDescription}</p>
-                    <p className="text-gray-500">{experience.length}</p>
-                  </div>
-                </motion.div>
+                <div className="sm:ml-4 w-full lg:pr-8 justify-between">
+                  <h2 className="text-lg font-bold ">{experience.company}</h2>
+                  <p className="text-gray-800">{experience.jobDescription}</p>
+                  <p className="text-gray-500">{experience.length}</p>
+                </div>
               </div>
             ))}
           </div>
