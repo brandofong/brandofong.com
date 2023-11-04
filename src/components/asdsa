@@ -1,0 +1,54 @@
+import React from "react";
+import NavBar from "../components/NavBar";
+import { motion } from "framer-motion";
+import kowloon from "../assets/photos/kowloon.JPG";
+
+const Experience = () => {
+  const workExperiences = [
+    {
+      company: "Company A",
+      jobDescription: "Front-end Developer",
+      imageUrl: kowloon,
+    },
+
+    // Add more work experiences as needed
+  ];
+  return (
+    <motion.div
+      initial={{ y: -200, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      exit={{ y: 200, opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className=" h-screen font-Lato">
+        <NavBar />
+        <div className="container mx-auto p-8">
+          <h1 className="text-3xl font-semibold my-4">My Work Experience</h1>
+
+          {workExperiences.map((experience, index) => (
+            <div
+              key={index}
+              className="flex flex-row items-center justify-between my-8"
+            >
+              {/* Left side: Company and Job Description */}
+              <div className="w-1/2">
+                <h2 className="text-2xl font-bold">{experience.company}</h2>
+                <p className="text-gray-600">{experience.jobDescription}</p>
+              </div>
+
+              {/* Right side: Image */}
+              <div className="w-1/2">
+                <img
+                  src={experience.imageUrl}
+                  alt={experience.company}
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+export default Experience;
