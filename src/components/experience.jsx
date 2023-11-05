@@ -14,30 +14,35 @@ const Experience = () => {
       jobDescription: "Events Commissioner",
       length: "May 2023 - Present",
       imageUrl: ctc,
+      area: "Calgary, AB",
     },
     {
       company: "Relectric Car Team",
       jobDescription: "Electrical Team Member",
       length: "Sep. 2023 - Present",
       imageUrl: relectric,
+      area: "Calgary, AB",
     },
     {
       company: "Asia Infrastructure Solutions",
       jobDescription: "Electrical Engineering Intern",
       length: "May 2023 - Aug. 2023",
       imageUrl: ais,
+      area: "Hong Kong SAR",
     },
     {
       company: "University of Calgary",
       jobDescription: "Web Developer",
       length: "Nov. 2022 - Apr. 2023",
       imageUrl: uc,
+      area: "Calgary, AB",
     },
     {
       company: "University of Calgary Solar Car Team",
       jobDescription: "Electrical Team Member",
       length: "Oct. 2022 - Apr. 2023",
       imageUrl: solar,
+      area: "Calgary, AB",
     },
   ];
   return (
@@ -54,7 +59,7 @@ const Experience = () => {
             Experience
           </h1>
 
-          <div className="  lg:px-[18px] lg:mx-auto ml-[70px] ">
+          <div className="  lg:px-[80px] md:mr-[60px] lg:mx-auto ml-[70px] ">
             {workExperiences.map((experience, index) => (
               <div
                 key={index}
@@ -77,8 +82,9 @@ const Experience = () => {
 
                 <div className="sm:ml-4 w-full lg:pr-8 justify-between">
                   <h2 className="text-lg font-bold ">{experience.company}</h2>
-                  <p className="text-gray-800">{experience.jobDescription}</p>
-                  <p className="text-gray-500">{experience.length}</p>
+                  <h3 className="text-gray-800">{experience.jobDescription}</h3>
+                  <h4 className="text-gray-600">{experience.length}</h4>
+                  <h6 className=" italic text-gray-400">{experience.area}</h6>
                 </div>
               </div>
             ))}
