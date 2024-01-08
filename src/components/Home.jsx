@@ -1,6 +1,5 @@
 import React from "react";
 import headshot from "../assets/barndo.jpg";
-
 import NavBar from "./NavBar";
 import { motion } from "framer-motion";
 
