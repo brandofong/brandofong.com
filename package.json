@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/brandofong/brandofong.com",
+    "deploy": "gh-pages -d build --repo https://github.com/brandofong/brandofong.com.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
