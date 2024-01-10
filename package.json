@@ -1,5 +1,5 @@
 {
-  "name": "brandonfwebsite",
+  "name": "brandofong.com",
   "homepage": "https://brandofong.com/",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/brandofong/brandonfwebsite.git",
+    "deploy": "gh-pages -d build --repo https://github.com/brandofong/brandofong.com",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
