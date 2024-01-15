@@ -18,7 +18,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="  shadow-md py-8  font-semibold font-Lato flex justify-between items-center w-full h-14 text-gray-800 px-5 border-b-2 border-b-blue-600 relative z-1 ">
+    <div className="  shadow-md py-8  font-semibold font-Lato flex justify-between items-center w-full h-14 text-gray-800 px-5 border-b-2 border-b-blue-500 relative z-1 ">
       <div>
         <div className=" flex justify-left md:justify-evenly mx-auto my-auto px-4 gap-6  ">
           <motion.a

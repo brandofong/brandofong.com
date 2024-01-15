@@ -1,5 +1,7 @@
 import React from "react";
-import headshot from "../assets/barndo.jpg";
+// import headshot from "../assets/barndo.jpg";
+import headshot from "../assets/barndo.JPG";
+
 import NavBar from "./NavBar";
 import { motion } from "framer-motion";
 
@@ -28,10 +30,11 @@ const Home = () => {
             </h1>
             <p className="text-center text-md text-gray-700  ">
               I am a third-year Electrical Engineering student with a minor in
-              Computer Engineering at the University of Calgary. In my free
-              time, you can find me doing photography 📸 , or outside looking at
-              planes ✈️ . I am always open to meeting new people, so please feel
-              free to connect with me!
+              Computer Engineering at the University of Calgary. You can catch
+              me working at AMD starting May 2024! In my free time, you can find
+              me doing photography 📸 , or outside looking at planes ✈️ . I am
+              always open to meeting new people, so please feel free to connect
+              with me!
             </p>
           </div>
         </div>
