@@ -28,13 +28,13 @@ const Home = () => {
             <h1 className="text-center text-2xl pb-3  ">
               Hey 👋🏻! My name's Brandon.
             </h1>
-            <p className="text-center text-md text-gray-700  ">
+            <p className="text-center text-md  text-gray-700  ">
               I am a third-year Electrical Engineering student with a minor in
-              Computer Engineering at the University of Calgary. You can catch
-              me working at AMD starting May 2024! In my free time, you can find
-              me doing photography 📸 , or outside looking at planes ✈️ . I am
-              always open to meeting new people, so please feel free to connect
-              with me!
+              Computer Engineering at the University of Calgary and I'm
+              currently interning at AMD as a Physical Design Intern. In my free
+              time, you can find me doing photography 📸 , or outside looking at
+              planes ✈️ . I am always open to meeting new people, so please feel
+              free to connect with me!
             </p>
           </div>
         </div>

@@ -6,20 +6,28 @@ import ctc from "../assets/photos/ctclogo.jpg";
 import solar from "../assets/photos/solarcar.png";
 import uc from "../assets/photos/uc.png";
 import relectric from "../assets/photos/relectric.jpg";
+import amd from "../assets/photos/amd.png";
 
 const Experience = () => {
   const workExperiences = [
     {
+      company: "AMD ",
+      jobDescription: "Physical Design Intern",
+      length: "May 2024 - Present",
+      imageUrl: amd,
+      area: "Markham, ON",
+    },
+    {
       company: "Code the Change YYC ",
       jobDescription: "Events Commissioner",
-      length: "May 2023 - Present",
+      length: "May 2023 - Apr. 2024",
       imageUrl: ctc,
       area: "Calgary, AB",
     },
     {
       company: "Relectric Car Team",
       jobDescription: "Electrical Team Member",
-      length: "Sep. 2023 - Present",
+      length: "Sep. 2023 - Apr. 2024",
       imageUrl: relectric,
       area: "Calgary, AB",
     },
