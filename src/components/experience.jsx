@@ -13,7 +13,7 @@ const Experience = () => {
     {
       company: "AMD ",
       jobDescription: "Physical Design Intern",
-      length: "May 2024 - Present",
+      length: "May 2024 - Aug. 2025",
       imageUrl: amd,
       area: "Markham, ON",
     },

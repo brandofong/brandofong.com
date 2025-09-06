@@ -29,10 +29,12 @@ const Home = () => {
               Hey 👋🏻! My name's Brandon.
             </h1>
             <p className="text-center text-md  text-gray-700  ">
-              I am a third-year Electrical Engineering student with a minor in
-              Computer Engineering at the University of Calgary and I'm
-              currently interning at AMD as a Physical Design Intern. In my free
-              time, you can find me doing photography 📸 , or outside looking at
+              I am a final year Electrical Engineering student with a minor in
+              Computer Engineering at the University of Calgary. During my
+              internship at AMD, I gained proficiency in clock tree synthesis,
+              static timing analysis, scripting, and building practical skills
+              that I’m excited to carry forward into my career. In my free time,
+              you can find me doing photography 📸 , or outside looking at
               planes ✈️ . I am always open to meeting new people, so please feel
               free to connect with me!
             </p>
