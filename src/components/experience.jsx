@@ -6,7 +6,7 @@ import ctc from "../assets/photos/ctclogo.jpg";
 import solar from "../assets/photos/solarcar.png";
 import uc from "../assets/photos/uc.png";
 import relectric from "../assets/photos/relectric.jpg";
-import amd from "../assets/photos/amd.png";
+import AMD from "../assets/photos/amd.png";
 
 const Experience = () => {
   const workExperiences = [
@@ -14,7 +14,7 @@ const Experience = () => {
       company: "AMD ",
       jobDescription: "Physical Design Intern",
       length: "May 2024 - Aug. 2025",
-      imageUrl: amd,
+      imageUrl: AMD,
       area: "Markham, ON",
     },
     {
